@@ -11214,4 +11214,55 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
 }
 
+.progress-bar-container:not(:last-child) {
+  margin-bottom: 50%;
+}
+
+
+.progress-bar {
+  width: 80%;
+  height: 5px;
+  margin-top: 7px;
+  border: 1px solid #565656;
+  border-radius: 5px;
+  box-shadow: 0 0 10px aqua;
+}  
+
+.percentage {
+  display: block;
+  height: 100%;
+  background-color: aqua;
+  border-radius: 5px;
+  animation: progress 1500ms ease-in 1;
+ }
+ 
+ .c {
+  width: 85%;
+}
+
+.java {
+  width: 10%;
+}
+
+.python {
+  width: 55%;
+}
+
+.html {
+  width: 80%;
+}
+
+.css {
+  width: 70%;
+}
+
+.javascript {
+  width: 55%;
+}
+
+
+
+
+
+
 /*# sourceMappingURL=style.css.map */
